@@ -1,0 +1,206 @@
+h1 {
+  font-family: 'Great Vibes';
+  font-size: 11rem;
+}
+
+.smaller_h1 {
+    font-size: 5rem;
+    padding-top: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+
+h4, p {
+  font-family: 'Droid Serif', serif;
+}
+
+i {
+  font-size: 36px;
+  color: white;
+}
+.larger {
+  font-size: 42px;
+}
+
+
+header, footer{
+  text-align: center;
+  background-color: black;
+}
+footer {
+  overflow: hidden;
+}
+
+
+.row {
+  max-width: none;
+}
+
+#hidden {
+  display: none;
+}
+
+#me {  
+  img {
+    border-radius: 100%;
+    width: 260px;
+  }
+}
+#me {
+    padding-top: 3rem;
+}
+
+
+/* structure */
+#top {
+  margin-top: 4rem;
+}
+#tag_line_top {
+  color: #008cba;
+/*   color: white; */
+  padding: 3rem;
+}
+#tag_line_end {
+  margin-bottom: 8rem;
+  color: white;
+}
+.large-4 {
+  margin: 5px;
+}
+.fun_stuff {
+  padding-top: 2rem;
+}
+
+
+
+.black_bg {
+  background-color: black;
+}
+
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}
+
+.left {
+  float: left;
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+
+
+.green {
+  background-color: rgba(46, 204, 113,0.2);
+  text-align: center;
+}
+
+.blue {
+  background-color: #46818f;
+  text-align: center;
+}
+
+.black {
+  color: black;
+}
+.orange {
+  color: rgba(243, 156, 18,.7);
+}
+.grey {
+  color: #7f8c8d;
+}
+
+.pattern {
+  background-image: url("../images/vertical_cloth.png");
+  background-repeat: repeat;
+  
+}
+.clearing-caption {
+  font-size: 1rem;
+}
+.skills_left {
+  padding-left: 8rem;
+}
+.skills_right {
+  padding-right: 8rem;
+}
+
+#up_button {
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  color: black;
+}
+#last_email {
+  padding-bottom: 8rem;
+}
+#bottom_skills {
+  padding: 1rem 0 4rem 0;
+}
+#skills_div {
+  padding: 1rem;
+}
+#last {
+/*   padding: 1em 0 4em 0; */
+}
+#email_arrow {
+  padding: 2rem;
+}
+#click {
+  color: #46818f;
+}
+#more_emails {
+  img {
+    padding: 1rem;
+  }
+}
+#contact_div {
+  h2, h4, i {
+    color: white;
+  }
+}
+
+/* lightbox styles */
+.lb-details {
+  padding: 1rem;
+}
+.lb-data {
+}
+
+
+@media only screen and (max-width: 1024px) { 
+/*   header {
+		padding: 6em;
+    h1 {
+    font-size: 8rem;
+    }
+	}
+  .pattern {
+    padding: 1rem;
+  }  
+  .skills {
+    margin-top: 4rem;
+  }
+  #skills_div_end {
+  margin-bottom: 5rem;
+  }
+  #exp_div_end {
+    margin-bottom: 5rem;
+  } */
+  .tag-line {
+    color: #008cba;
+  }
+ #tag_line_top {
+    padding: 1rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+} 
+
+
